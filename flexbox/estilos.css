@@ -1,0 +1,51 @@
+*{
+
+    margin:0%;
+    padding: 0%;
+
+}
+
+.container{
+
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+
+}
+.cuadrado{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: chartreuse;
+    
+}
+.hijo_cuadrado{
+
+    flex-flow: column;
+    display: none;
+    width: 20%;
+    height: 80%;
+    background-color: aquamarine;
+    background-image: url(./Maycol.jpg);
+    background-size: cover;
+    border: red solid 5px;
+    border-radius: 100px;
+
+}
+.navegacion{
+
+    flex-flow: column;
+    display: none;
+    width: 20%;
+    height: 80%;
+    background-color: aquamarine;
+    background-image: url(./Maycol.jpg);
+    background-size: cover;
+    border: red solid 5px;
+    border-radius: 100px;
+}
