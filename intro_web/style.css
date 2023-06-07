@@ -1,0 +1,55 @@
+h1{
+
+    color: rgb(0, 0, 0);
+
+}
+h3{
+
+    color: rgb(0, 0, 0);
+
+}
+p{
+
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    
+}
+body{
+
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: start;
+}
+image{ 
+
+    justify-content: center;
+}
+header{
+
+    display:flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+/*se pone #cuando es id - si es class es con . */
+#nombre{
+
+    color: blue;
+
+ }
+
+.parrafo{
+
+    font-size: 150%;
+
+}
+
+#datos_personales{
+
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
