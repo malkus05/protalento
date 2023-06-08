@@ -26,3 +26,6 @@ let a = 5
 let b = 9
 let c = (a * b)
 console.log("El resultado es: " + c)
+
+var fecha = new Date("06/07/2023");
+console.log =(fecha)
