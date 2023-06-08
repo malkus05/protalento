@@ -11,5 +11,3 @@ console.log (res1)
 typeof(var)
 console.log (typeof)
 
-var fecha = new Date ();
-console.log =(fecha)
