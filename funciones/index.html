@@ -4,12 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <script src="html_java.js"></script>                        
+        <script src="funciones.js"></script>                        
     </head>
     <body>
+        <label for="nombre" > Username </label>
         <input type="text" name="nombre" id="nombre">
-        <button id="mandar" onclick="mandaDatos()"> <p1>Mandar datos</p1> </button>
+        <br>
+        <label for="contrasena" > Password </label>
+        <input type="text" name="password" id="password">
+        <br>
+        <button id="mandar" onclick="mandaDatos()"> <p2>mandar datos</p2> </button>
         <br>
         <div id="mensaje" class="mensaje"> </div >
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input">
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
     </body>
 </html>

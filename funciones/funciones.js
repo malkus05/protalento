@@ -59,3 +59,11 @@ function sumar2 (x,y){
     
     let x = 10;
     sumar2(x, 1)
+
+console.log(1);
+
+setTimeout(function());{
+    console.log(2)
+},5000;
+
+console.log(3)
